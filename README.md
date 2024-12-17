@@ -25,7 +25,7 @@ To run this project, you must have Python 3.x installed on your system. You can 
 
 Installation
 Clone this repository to your local machine:
-git clone https://github.com/your-username/Hemophilia-Prophylaxis-Program.git
+git clone https://github.com/osmanfurkanerkan/Hemophilia-Prophylaxis-Program.git
 
 Navigate to the project directory:
 cd Hemophilia-Prophylaxis-Program
@@ -33,7 +33,7 @@ Make sure any required dependencies are installed (if any).
 
 Usage
 Run the Python script:
-python hemophilia_prophylaxis.py
+python main.py
 Follow the on-screen instructions to enter patient data and calculate the required treatment information.
 
 After all patients' data is entered, the program will generate the necessary statistical information.
