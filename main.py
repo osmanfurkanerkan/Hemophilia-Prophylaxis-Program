@@ -51,7 +51,7 @@ while other_patients:
         factor_proteins_8_percantage=float(input("enter your factor protein 8 percentage (0-50) : "))
         while not (0<=factor_proteins_8_percantage<50):
             print("please try enter factor protein 8 percentaige:")
-            factor_proteins_8_percantage=int(input("enter your factor protein 8 percentage (0-50) : "))
+            factor_proteins_8_percantage=float(input("enter your factor protein 8 percentage (0-50) : "))
 
         # We defined the patient's severity
         if factor_proteins_8_percantage<1:
@@ -68,10 +68,10 @@ while other_patients:
     elif factor_proteins_number==9:
         Numbers_of_Hemophilia_B+=1
         # Protein level in blood (%)
-        factor_proteins_9_percantage=int(input("enter your factor protein 9 percentaige  (0-50) :"))
+        factor_proteins_9_percantage=float(input("enter your factor protein 9 percentaige  (0-50) :"))
         while not (0<=factor_proteins_9_percantage<50):
                 print("please try enter factor protein 9 percentaige:")
-                factor_proteins_9_percantage=int(input("enter your factor protein 9 percentaige  (0-50) :"))
+                factor_proteins_9_percantage=float(input("enter your factor protein 9 percentaige  (0-50) :"))
 
         # We defined the patient's severity
         if 0<=factor_proteins_9_percantage<1:
